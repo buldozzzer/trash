@@ -30,10 +30,7 @@ print("\nCVE-2017-11424...")
 
 valid_parts = valid_jwt_token.split(".")
 
-print("\nValid jwt_token parts")
-print(valid_parts)
-
-print("\nAlg before:")
+print("\nSource alg:")
 print(valid_parts[0])
 
 alg=base64.b64decode(valid_parts[0]+("="*(len(valid_parts[0]) % 4))).decode()
