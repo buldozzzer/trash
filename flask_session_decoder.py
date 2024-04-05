@@ -141,5 +141,3 @@ def flask_loads(value):
 
 if __name__ == "__main__":
     main()
-Author
-Noah Petherbridge, www.kirsle.net
